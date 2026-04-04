@@ -1,16 +1,29 @@
-# React + Vite
+Proyecto: Página Personal de Viajes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con React que presenta una colección de fotografías de viajes junto con historias personales asociadas a cada lugar.
 
-Currently, two official plugins are available:
+Este proyecto permite explorar diferentes destinos a través de una galería visual e interactiva. Cada fotografía incluye información del lugar, etiquetas temáticas y una historia que conecta la experiencia del viaje con el usuario.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Además, se integra una API externa para mostrar información del país, incluyendo datos relevantes que complementan la experiencia del usuario.
 
-## React Compiler
+Funcionalidades principales
+•	Navegación entre páginas con React Router
+•	Vista de detalle por lugar (con URL amigables mediante slug)
+•	Galería de imágenes interactiva
+•	Slider responsive en la página principal
+•	Integración con API externa para datos de país
+•	Diseño completamente responsive (desktop, tablet y mobile)
+•	Componentes reutilizables (Card, Tag, Button, etc.)
+•	Responsive
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tecnologías utilizadas
+•	React
+•	React Router
+•	JavaScript (ES6+)
+•	CSS (BEM + Flexbox + Grid)
+•	API Fetch
 
-## Expanding the ESLint configuration
+Autor: Natalia Tovar Silva
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://github.com/natovarsilva/pagina-personal.git
+https://natovarsilva.github.io/pagina-personal/ 
