@@ -1,0 +1,36 @@
+@import './styles/variables.css';
+@import './styles/typography.css';
+
+/* RESET BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--body-md);
+  color: var(--text-300);
+  background: var(--bg-50);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px; /* o tu var(--container-xl) */
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+img {
+  -webkit-user-drag: none; 
+  user-select: none;
+  pointer-events: none; 
+}
+
+.protected-image {
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}

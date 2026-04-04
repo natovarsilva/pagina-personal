@@ -1,0 +1,81 @@
+:root {
+  /* 🔥 CONTENEDORES  */
+
+  /* DESKTOP */
+  --container-lg: 1200px;
+  --container-secondary-lg: 996px;
+  --container-half-lg: 486px;
+
+  /* TABLET */
+  --container-md: 648px;
+  --container-secondary-md: 480px;
+  --container-half-md: 312px;
+
+  /* MOBILE */
+  --container-sm: 272px;
+  --container-secondary-sm: 272px;
+  --container-half-sm: 128px;
+
+  /* 🔥 SPACING */
+  --spacing-xl: 40px;
+  --spacing-lg: 24px;
+  --spacing-md: 16px;
+
+  /* 🔥 BORDER RADIUS */
+  --radius-lg: 16px;
+
+  /* COLORES */
+ /* ===== MAIN BACKGROUND ===== */
+  --bg-50: #fefdfd;
+  --bg-75: #fcfaf8;
+  --bg-100: #f9f6f6;
+  --bg-200: #f8f6f2;
+  --bg-300: #f7f4ef;
+  --bg-400: #d8d4d0;
+  --bg-500: #979592;
+
+  /* ===== SECONDARY BACKGROUND ===== */
+  --bg2-50: #fdfdfc;
+  --bg2-75: #f8f6f4;
+  --bg2-100: #f6f3ef;
+  --bg2-200: #f2eee8;
+  --bg2-300: #efeae3;
+  --bg2-400: #a7a49f;
+  --bg2-500: #928f8a;
+
+  /* ===== OLIVE ===== */
+  --olive-50: #f2f4f0;
+  --olive-75: #c8d0c3;
+  --olive-100: #b1bcaa;
+  --olive-200: #90a086;
+  --olive-300: #798c6d;
+  --olive-400: #55624c;
+  --olive-500: #4a5542;
+
+  /* ===== BLUE ===== */
+  --blue-50: #f0f5f8;
+  --blue-75: #c2d8e3;
+  --blue-100: #a8c7d7;
+  --blue-200: #83afc6;
+  --blue-300: #699fba;
+  --blue-400: #4a6f82;
+  --blue-500: #406171;
+
+  /* ===== MAIN TEXT ===== */
+  --text-50: #eaeaea;
+  --text-75: #aaaaaa;
+  --text-100: #868686;
+  --text-200: #525252;
+  --text-300: #2f2f2f;
+  --text-400: #121212;
+  --text-500: #1d1d1d;
+
+  /* ===== SECONDARY TEXT ===== */
+  --text2-50: #f0f0f0;
+  --text2-75: #c2c2c2;
+  --text2-100: #a9a9a9;
+  --text2-200: #848484;
+  --text2-300: #6b6b6b;
+  --text2-400: #4b4b4b;
+  --text2-500: #414141;
+}

@@ -1,0 +1,121 @@
+.photo-slider {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+  gap: 16px;
+
+  background: 
+    url("/src/assets/BG-slider-blue-50.png");
+}
+
+/* CONTAINER */
+.photo-slider__container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 6vw, 83px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 48px;
+}
+
+/* TITLE */
+.photo-slider__title {
+  font-family: 'Playfair Display';
+  font-size: 35px;
+  color: var(--blue-500);
+  text-align: left;
+  width: 100%;
+}
+
+/* WRAPPER */
+.photo-slider__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+/* SLIDER */
+.photo-slider__slider {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 32px;
+}
+
+/* POLAROIDS */
+.photo-slider__polaroids {
+  display: flex;
+  gap: 24px;
+  justify-content: center; /* 🔥 centra siempre */
+  width: 100%;
+}
+
+.photo-slider__polaroids::-webkit-scrollbar {
+  display: none;
+}
+
+.photo-slider__polaroids > * {
+  flex: 0 0 300px;
+}
+
+
+/* ICONS */
+.photo-slider__nav {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.photo-slider__icon {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.photo-slider__nav:hover .photo-slider__icon {
+  transform: scale(1.1);
+}
+
+/* CLICK FEEDBACK */
+.photo-slider__nav:active {
+  transform: scale(0.95);
+}
+
+/* TABLET */
+@media (max-width: 1100px) {
+  .photo-slider__polaroids > *:nth-child(3) {
+    display: none; 
+  }
+}
+
+/* MOBILE */
+@media (max-width: 750px) {
+
+
+  .photo-slider__polaroids {
+    justify-content: center;
+    flex: 0 0 100%;
+    max-width: 320px;
+  }
+
+  .photo-slider__polaroids > * {
+    flex: 0 0 90%;
+  }
+
+  .photo-slider__polaroids > *:nth-child(2),
+  .photo-slider__polaroids > *:nth-child(3) {
+    display: none;
+  }
+
+}

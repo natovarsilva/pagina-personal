@@ -1,0 +1,96 @@
+.gallery {
+  padding: 56px 0;
+  color: var(--bg-50);
+}
+
+.gallery__container {
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery__title {
+  font-family: var(--font-heading);
+  font-size: var(--h-lg);
+  margin-bottom: 32px;
+}
+
+/* GRID */
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 381px));
+  justify-content: center;
+  gap: 24px;
+}
+
+/* TEXTOS */
+.gallery__message {
+
+  text-align: center;
+  max-width: 996px;
+
+  font-family: 'Gloria Hallelujah';
+  font-size: 22px;
+  color: var(--blue-300);
+}
+
+/* BUTTON */
+.gallery__more {
+  margin-top: 16px;
+}
+
+/* LOADER / ERROR */
+.gallery__loader p {
+  color: var(--blue-300);
+  font-family: 'Gloria Hallelujah';
+  font-size: 22px;
+}
+.gallery__error {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* FOOTER */
+.gallery__footer {
+  max-width: 1200px;
+  margin: 56px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.gallery__empty-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* MOBILE */
+@media (max-width: 640px) {
+  .gallery {
+    padding: 40px 0;
+  }
+
+  .gallery__container {
+    padding: 0 16px;
+    
+  }
+
+  .gallery__grid {
+    grid-template-columns: 1fr;
+  }
+
+    .gallery__grid > * {
+    width: 100%;
+    max-width: 381px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,44 @@
+.info-banner {
+  width: 100%;
+  background: var(--background-50);
+  padding: 48px 0;
+}
+
+/* CONTAINER */
+
+.info-banner__container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 6vw, 83px);
+}
+
+/* WRAPPER (CENTRADO) */
+
+.info-banner__wrapper {
+  max-width: var(--max-width-secondary);
+  margin-left: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* TITULO */
+
+.info-banner__title {
+  color: var(--olive-400);
+}
+
+/* TEXTO */
+
+.info-banner__text {
+  color: var(--olive-300);
+  text-align: left;
+}
+
+/* BUTTON WRAPPER (CENTRADO) */
+
+.info-banner__button-wrapper {
+  display: flex;
+  justify-content: center;
+}

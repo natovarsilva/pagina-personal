@@ -1,0 +1,154 @@
+/* SECTION */
+
+.search {
+  background: var(--bg2-50);
+  padding: 56px 0;
+  max-width: 100%;
+}
+
+/* CONTAINER */
+
+.search__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* WRAPPER */
+
+.search__wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+/* INPUT */
+
+.search__input {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 16px;
+
+  padding: 8px 26px;
+  height: 36px;
+
+  background: var(--bg2-100);
+  border-radius: 64px;
+
+  min-width: 229px;
+   overflow: hidden;
+}
+
+.search__input input {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-family: var(--font-subtitle);
+  font-size: var(--sub-md);
+  color: var(--olive-400);
+}
+
+.search__field {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-family: var(--font-subtitle);
+  font-size: var(--sub-md);
+  color: var(--olive-400);
+  width: 100%;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* placeholder */
+.search__field::placeholder {
+  color: var(--olive-500);
+}
+
+/* focus */
+.search__field:focus::placeholder {
+  opacity: 0.4;
+}
+
+/* ICON */
+
+.search__icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* TAGS */
+
+.search__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* TAG */
+
+.search__tag {
+  padding: 4px 16px;
+  height: 36px;
+
+  border-radius: 64px;
+  border: 1px solid var(--blue-500);
+  background: var(--blue-50);
+
+  font-family: var(--font-overline);
+  font-size: var(--ol-md);
+  color: var(--blue-300);
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search__tag:hover {
+  background: var(--blue-100);
+}
+
+/* ACTIVE */
+
+.search__tag.is-active {
+  background: var(--blue-300);
+  color: #fff;
+  border: none;
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+  .search {
+    padding: 40px 0;
+  }
+
+  .search__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search__input {
+    width: 100%;
+  }
+
+  .search__tags {
+    justify-content: center;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 640px) {
+  .search__container {
+    padding: 0 16px;
+  }
+}

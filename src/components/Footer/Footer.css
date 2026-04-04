@@ -1,0 +1,136 @@
+/* ===== FOOTER BASE ===== */
+
+.footer {
+  width: 100%;
+  background: var(--olive-500);
+  padding: 56px 0;
+}
+
+/* ===== CONTAINER (FULL WIDTH CONTROLADO) ===== */
+
+.footer__container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+/* ===== WRAPPER (LAYOUT REAL) ===== */
+
+.footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* 🔥 padding responsive como navbar */
+  padding: 0 clamp(16px, 4vw, 83px);
+}
+
+/* ===== TOP (COLUMNAS) ===== */
+
+.footer__top {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* 🔥 gap fluido */
+  gap: clamp(40px, 8vw, 160px);
+}
+
+/* ===== COLUMNAS ===== */
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width:100%;
+
+  align-items: flex-start; /* desktop */
+}
+
+/* ===== TITULOS ===== */
+
+.footer__title {
+  font-family: var(--font-heading);
+  font-size: var(--h-sm);
+  font-style: italic;
+  color: var(--olive-50);
+}
+
+/* ===== LISTAS ===== */
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list li {
+  font-family: var(--font-body);
+  font-size: var(--body-sm);
+  color: var(--olive-75);
+}
+
+/* ===== LOGO ===== */
+
+.footer__bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__logo {
+  width: 48px;
+  opacity: 0.9;
+}
+
+/* 📱 TABLET */
+
+@media (max-width: 1024px) {
+  .footer__wrapper {
+    max-width: 100%;
+  }
+
+    .footer__top {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+
+    gap: 32px; 
+  }
+
+  .footer__col {
+    align-items: center; 
+    max-width:100%;
+  }
+}
+
+/* 📱 MOBILE */
+
+@media (max-width: 640px) {
+  .footer__wrapper {
+    padding: 0 16px;
+    max-width:100%;
+  }
+    .footer {
+    padding: 64px 0;
+  }
+
+  .footer__top {
+    gap: 32px;
+  }
+
+  .footer__bottom {
+    margin-top: 32px;
+  }
+
+  @media (max-width: 640px) {
+  .footer__col {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+}

@@ -1,0 +1,105 @@
+:root {
+  /* 🔤 FONT FAMILIES */
+
+  --font-heading: 'Playfair Display', serif;
+  --font-subtitle: 'Gloria Hallelujah', cursive;
+  --font-body: 'Alegreya Sans', sans-serif;
+  --font-overline: 'Alegreya Sans SC', sans-serif;
+  --font-caption: 'Alegreya Sans', sans-serif;
+
+  /* 🔠 HEADINGS (Playfair) */
+  /* Base: 18 / Scale: 1.25 */
+
+  --h-xl: 44px;
+  --h-lg: 35px;
+  --h-md: 28px;
+  --h-sm: 23px;
+
+  /* ✍️ SUBTITLES (Gloria Hallelujah) */
+  /* Base: 22 / Scale: 1.25 */
+
+  --sub-xl: 34px;
+  --sub-lg: 28px;
+  --sub-md: 22px;
+  --sub-sm: 18px;
+  --sub-xs: 14px;
+
+  /* 📄 BODY (Alegreya Sans) */
+  /* Base: 16 / Scale: 1.15 */
+
+  --body-xl: 21px;
+  --body-lg: 18px;
+  --body-md: 16px;
+  --body-sm: 14px;
+  --body-xs: 12px;
+
+  /* 🔠 OVERLINE (Alegreya Sans SC) */
+  /* Base: 20 / Scale: 1.1 */
+
+  --ol-lg: 24px;
+  --ol-md: 22px;
+  --ol-sm: 20px;
+  --ol-xs: 14px;
+  --ol-xxs: 12px;
+
+  /* 📝 CAPTION (Alegreya Sans Italic) */
+  /* Base: 16 / Scale: 1.15 */
+
+  --cap-xl: 21px;
+  --cap-lg: 18px;
+  --cap-md: 16px;
+  --cap-sm: 14px;
+  --cap-xs: 12px;
+}
+
+/* CLASES REUTILIZABLES */
+
+/* HEADINGS */
+
+.h-xl {
+  font-family: var(--font-heading);
+  font-size: var(--h-xl);
+}
+
+.h-lg {
+  font-family: var(--font-heading);
+  font-size: var(--h-lg);
+}
+
+
+/* SUBTITLE */
+
+.subtitle {
+  font-family: var(--font-subtitle);
+}
+
+
+/* BODY */
+
+.body-md {
+  font-family: var(--font-body);
+  font-size: var(--body-md);
+}
+
+.body-xl {
+  font-family: var(--font-body);
+  font-size: var(--body-xl);
+  line-height: 125%;
+}
+
+
+/* OVERLINE */
+
+.overline {
+  font-family: var(--font-overline);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+/* CAPTION */
+
+.caption {
+  font-family: var(--font-caption);
+  font-style: italic;
+}
