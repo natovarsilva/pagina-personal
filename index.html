@@ -6,6 +6,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Gloria+Hallelujah&family=Alegreya+Sans:wght@300;400;500;700&family=Alegreya+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pagina-personal</title>
+    <script>
+  var redirect = new URLSearchParams(window.location.search).get('redirect');
+  if (redirect) {
+    window.history.replaceState(null, '', '/pagina-personal' + redirect);
+  }
+</script>
     <script type="module" crossorigin src="/pagina-personal/assets/index-CXfLA_bq.js"></script>
     <link rel="stylesheet" crossorigin href="/pagina-personal/assets/index-A8W8YgD-.css">
   </head>
