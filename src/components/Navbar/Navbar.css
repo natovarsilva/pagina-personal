@@ -73,7 +73,7 @@
   display: none;
 }
 
-/* 📱 TABLET */
+/* TABLET */
 
 @media (max-width: 1024px) {
   .navbar__container {
@@ -81,7 +81,7 @@
   }
 }
 
-/* 📱 MOBILE */
+/* MOBILE */
 
 @media (max-width: 640px) {
   .navbar__links {

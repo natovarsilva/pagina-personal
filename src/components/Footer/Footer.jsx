@@ -8,7 +8,7 @@ function Footer() {
 
         <div className="footer__wrapper">
 
-          {/* 🔝 TOP */}
+          {/* TOP */}
           <div className="footer__top">
 
             {/* COL 1 */}
@@ -38,7 +38,7 @@ function Footer() {
 
           </div>
 
-          {/* 🔻 LOGO */}
+          {/* LOGO */}
           <div className="footer__bottom">
             <img src={logo} alt="Logo" className="footer__logo" />
           </div>

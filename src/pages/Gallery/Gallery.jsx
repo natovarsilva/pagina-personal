@@ -15,7 +15,7 @@ export default function Gallery() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
   const [hasLoadedMore, setHasLoadedMore] = useState(false);
-  const [lastLoadCount, setLastLoadCount] = useState(0); // 🔥 clave
+  const [lastLoadCount, setLastLoadCount] = useState(0);
 
   // FILTRO
   const filteredPlaces = places.filter((place) => {
@@ -102,6 +102,7 @@ export default function Gallery() {
                 author={place.author}
                 year={place.year}
                 tags={place.tags}
+                slug={place.slug}
               />
             ))}
           </div>

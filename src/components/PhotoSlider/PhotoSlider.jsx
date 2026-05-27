@@ -57,7 +57,7 @@ export default function PhotoSlider({ places }) {
             {/* CARDS */}
             <div className="photo-slider__polaroids">
               {visibleItems.map((place) => (
-                <Card key={place.slug} {...place} size="md" maxTags={2}/>
+                <Card key={place.id} {...place} size="md" maxTags={2}/>
               ))}
             </div>
 

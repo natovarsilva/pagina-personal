@@ -19,7 +19,7 @@ function InfoBanner() {
             <br /><br />
             A través de cada imagen, comparto mis viajes, mis experiencias y mi forma de interpretar los lugares que visito, mostrando cómo la perspectiva puede transformar completamente lo que vemos.
             <br /><br />
-            Mi fotografía es una invitación a detenerse, observar y descubrir nuevas formas de sentir cada instante. Es también un pedacito de mí que quiero compartir con el mundo, para que otros puedan conocerlo a través de mis ojos y de mis fotografías.          </p>
+            Mi fotografía es una invitación a detenerse, observar y descubrir nuevas formas de sentir cada instante. Es también un pedacito de mí que quiero compartir con el mundo, para que otros puedan conocerlo a través de mis ojos y de mis fotos.          </p>
 
           <div className="info-banner__button-wrapper">
             <Button to="/gallery" variant="olive" appearance="dark">

@@ -98,7 +98,7 @@ function PlaceDetail() {
     </div>
 
     {/* SLIDER */}
-    <PhotoSlider places={places} />
+    <PhotoSlider places={places.filter((p) => p.slug !== slug)} />
 
   </>
 );

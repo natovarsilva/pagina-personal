@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Hero from "../../components/Hero/Hero";
 import InfoBanner from "../../components/InfoBanner/InfoBanner";

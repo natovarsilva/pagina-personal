@@ -20,7 +20,7 @@ function Hero() {
 
         {/* IMAGEN */}
         <div className="hero__image-wrapper">
-          <img src={heroImg} alt="Natalia viajando" className="hero__image" draggable={false}/>
+          <img src={heroImg} alt="Natalia viajando" className="hero__image protected-image" draggable={false}/>
         </div>
 
       </div>

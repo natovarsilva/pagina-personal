@@ -1,4 +1,4 @@
-import loaderVideo from "../../assets/lottie-loader.webm"; // 👈 asegúrate nombre correcto
+import loaderVideo from "../../assets/lottie-loader.webm";
 import "./Loader.css";
 
 export default function Loader() {
